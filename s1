@@ -1,0 +1,9 @@
+import io
+file=open("textfile1.txt","w+")
+file.write("hello Heera papa")
+file.close()
+#fle=open("textfile1.txt","r")
+file = open("textfile1.txt", "r")
+print file.readline()
+#print fle
+#pfile.close()
