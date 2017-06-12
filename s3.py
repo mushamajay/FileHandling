@@ -15,3 +15,13 @@ file.write("mushamajay   \n")
 with open("filetest11","a") as myfile:
   myfile.write("This line is an appending line")
 print myfile
+
+
+'''
+file=open("filetest11.txt","a")
+file.write("This line is an appending line")
+file=open("filetest11.txt","r")
+str=file.read()
+print str
+file.close()
+'''
